@@ -21,9 +21,12 @@ public class Kolekcje {
 //    Zadania:
 //    1.   Napisz metodę, która zwraca listę wszystkich elementów podzielnych przez 7. Lista źródłowa do wykonania zadania generowana jest przez powyższy kod.
 
-//        List<Integer> mojalista = getIntegersDivisbleBy7(someList);
-//
-//        System.out.println(mojalista);
+        System.out.println("Rozwiazanie zadania nr 1");
+
+        List<Integer> mojalista = getIntegersDivisbleBy7(someList);
+
+        System.out.println(mojalista);
+        System.out.println();
 
 
 //        List<Integer> mojalista2 = new ArrayList<Integer>();
@@ -38,15 +41,20 @@ public class Kolekcje {
 
 //        Rozwiązanie zad. 2
 
+        System.out.println("Rozwiazanie zadania nr 2");
         List<String> liczby = new ExtArrayList();
-        for (int i = 0; i <= 50; i++) {
+        for (int i = 0; i <= 30; i++) {
             liczby.add(String.valueOf(i));
         }
 
         System.out.println(liczby);
         System.out.println();
 
-        liczby.remove("5");
+        liczby.remove("10");
+        System.out.println(liczby);
+        System.out.println();
+
+        liczby.remove("25");
         System.out.println(liczby);
         System.out.println();
 

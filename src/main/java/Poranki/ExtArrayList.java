@@ -1,30 +1,29 @@
 package Poranki;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class ExtArrayList extends ArrayList {
 
     public String toString() {
 
-        String info = new String();
         String type = this.get(0).getClass().getSimpleName();
-        info = "Lista przechowuje dane typu " + type;
+        String info = "Lista przechowuje dane typu " + type + "\n";
 
         for (int i = 0; i < this.size(); i++) {
-            info = "index=" + i + " wartość=" + this.get(i);
+            info = info + "index=" + i + " wartość=" + this.get(i) + "\n";
         }
         return info.toString();
     }
 
-    public boolean remove(Object a) {
-        if (a == null) {
+    public boolean remove(Object o) {
+        if (o == null) {
             return false;
         }
 
         for (int i = 0; i < this.size(); i++) {
-            if ((a.equals(this.get(i)))) {
+            if (o.equals(this.get(i))) {
                 this.set(i, null);
+                return true;
             }
         }
         return false;
