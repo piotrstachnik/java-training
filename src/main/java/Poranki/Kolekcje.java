@@ -42,6 +42,7 @@ public class Kolekcje {
 //        Rozwiązanie zad. 2
 
         System.out.println("Rozwiazanie zadania nr 2");
+        
         List<String> liczby = new ExtArrayList();
         for (int i = 0; i <= 30; i++) {
             liczby.add(String.valueOf(i));
