@@ -1,8 +1,8 @@
-package Poranki;
+package Poranki.Kolekcje;
 
 import java.util.*;
 
-public class Kolekcje {
+public class Kolekcje_1 {
     public static void main(String[] args) {
         Random random = new Random();
         int dimmension = 10;
@@ -42,7 +42,7 @@ public class Kolekcje {
 //        Rozwiązanie zad. 2
 
         System.out.println("Rozwiazanie zadania nr 2");
-        
+
         List<String> liczby = new ExtArrayList();
         for (int i = 0; i <= 30; i++) {
             liczby.add(String.valueOf(i));

@@ -1,4 +1,4 @@
-package Poranki;
+package Poranki.Kolekcje;
 
 import java.util.ArrayList;
 
