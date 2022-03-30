@@ -2,6 +2,23 @@ package Poranki.Kolekcje;
 
 import java.util.*;
 
+//Task#1
+
+//    Przygotuj kolejkę PriorityQueue przechowującą studentów. Przy pobieraniu chcemy, aby studenci byli zwracani od najbardziej pilnego (najwyższa średnia ocen). Można dodawać metody do klasy Student jeśli jest taka potrzeba.
+//
+//        Task#2
+//
+//        Przygotuj metodę, która dostaje listę słów i zwraca mapę postaci
+//        {ilość_liter=[lista_słów_z_taką_ilością_liter]}
+//
+//        Przykład:
+//        Dane wejściowe:
+//        „a”, „b”, „abc”, „c”, „def”
+//        Wyjście:
+//        {1=[a, b, c], 3=[abc, def]}
+
+
+
 public class Kolekcje_2 {
 
 //    Rozwiązania zadania 2.1
