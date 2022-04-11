@@ -2,7 +2,7 @@ package Poranki.Kolekcje;
 
 import java.util.*;
 
-public class Kolekcje_1 {
+public class Kolekcje1 {
     public static void main(String[] args) {
         Random random = new Random();
         int dimmension = 10;

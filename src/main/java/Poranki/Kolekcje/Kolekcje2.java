@@ -19,7 +19,7 @@ import java.util.*;
 
 
 
-public class Kolekcje_2 {
+public class Kolekcje2 {
 
 //    Rozwiązania zadania 2.1
     public static class Student implements Comparable<Student>{
